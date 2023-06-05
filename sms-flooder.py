@@ -49,9 +49,8 @@ def about():
     print(f"""
 {bcyan}[-]This tool is Created By Cyber Army
 
-{yellow}Author    :  Cyber DK And Cyber TP
+{yellow}Author    :  Cyber DK
 Github    :  https://github.com/DK1285
-Github    :  https://github.com/cybert-p
 Version   :  1.0
 
 {red}[-]Warning:
@@ -61,9 +60,9 @@ only ! Author will not be responsible for
 any misuse of this toolkit !
 
 
-{bgreen}[-]Dev SocialMedia
+{bgreen}[-]Developer SocialMedia
 {red}[{byellow}1{red}]{white}-{red}>{bcyan}DK   : Instagram
-{red}[{byellow}2{red}]{white}-{red}>{bcyan}TP   : Instagram
+{red}[{byellow}2{red}]{white}-{red}>{bcyan}DK   : Telegram
 {red}[{byellow}0{red}]{white}-{red}>{bcyan}Exit
 """)
     option=input(f"{bred}Choose an option:{white}")
@@ -71,9 +70,7 @@ any misuse of this toolkit !
         if option=="1":
             os.system("xdg-open https://www.instagram.com/cyber___dk/ > /dev/null 2>&1 &")
         elif option=="2":
-
-            os.system("xdg-open https://www.instagram.com/cyber_tp/ > /dev/null 2>&1 &")
-
+            os.system("xdg-open https://t.me/cyber_dk/ > /dev/null 2>&1 &")
         elif option=="0":
             logic()
         else:
