@@ -68,7 +68,7 @@ any misuse of this toolkit !
     option=input(f"{bred}Choose an option:{white}")
     try:
         if option=="1":
-            os.system("xdg-open https://www.instagram.com/cyber___dk/ > /dev/null 2>&1 &")
+            os.system("xdg-open https://www.instagram.com/sincrypt_dk/ > /dev/null 2>&1 &")
         elif option=="2":
             os.system("xdg-open https://t.me/cyber_dk/ > /dev/null 2>&1 &")
         elif option=="0":
